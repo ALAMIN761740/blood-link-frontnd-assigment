@@ -173,7 +173,7 @@ export default function Donors () {
 
 
   const data = async()=>{
-    const response = await fetch("http://localhost:5359/api/alldonors");
+    const response = await fetch("https://blood-link-backend-assigment.onrender.com/api/alldonors");
     const data = await response.json();
     setDoner(data);
   }

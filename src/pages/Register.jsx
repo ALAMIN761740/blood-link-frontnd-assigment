@@ -45,7 +45,7 @@ export default function Register() {
       setIsLoading(false);
 
       try {
-        await fetch("http://localhost:5359/api/users/register", {
+        await fetch("https://blood-link-backend-assigment.onrender.com/api/users/register", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
