@@ -120,7 +120,7 @@ export default function Register() {
                     placeholder="Enter your full name"
                     value={formData.name}
                     onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                    className="w-full border border-gray-300 rounded-lg px-10 py-2 focus:outline-none focus:ring-2 focus:ring-red-500"
+                    className="w-full text-black border border-gray-300 rounded-lg px-10 py-2 focus:outline-none focus:ring-2 focus:ring-red-500"
                   />
                 </div>
               </div>
@@ -135,7 +135,7 @@ export default function Register() {
                     placeholder="Enter your email"
                     value={formData.email}
                     onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                    className="w-full border border-gray-300 rounded-lg px-10 py-2 focus:outline-none focus:ring-2 focus:ring-red-500"
+                    className="w-full text-black border border-gray-300 rounded-lg px-10 py-2 focus:outline-none focus:ring-2 focus:ring-red-500"
                   />
                 </div>
               </div>
@@ -150,7 +150,7 @@ export default function Register() {
                     placeholder="+880 1XXX-XXXXXX"
                     value={formData.phone}
                     onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                    className="w-full border border-gray-300 rounded-lg px-10 py-2 focus:outline-none focus:ring-2 focus:ring-red-500"
+                    className="w-full text-black border border-gray-300 rounded-lg px-10 py-2 focus:outline-none focus:ring-2 focus:ring-red-500"
                   />
                 </div>
               </div>
@@ -162,7 +162,7 @@ export default function Register() {
                   <select
                     value={formData.bloodGroup}
                     onChange={(e) => setFormData({ ...formData, bloodGroup: e.target.value })}
-                    className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-red-500"
+                    className="w-full text-black border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-red-500"
                   >
                     <option value="">Select</option>
                     {bloodGroups.map((group) => (
@@ -175,7 +175,7 @@ export default function Register() {
                   <select
                     value={formData.district}
                     onChange={(e) => setFormData({ ...formData, district: e.target.value })}
-                    className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-red-500"
+                    className="w-full text-black border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-red-500"
                   >
                     <option value="">Select</option>
                     {districts.map((d) => (
@@ -196,7 +196,7 @@ export default function Register() {
                       placeholder="Min 6 chars"
                       value={formData.password}
                       onChange={(e) => setFormData({ ...formData, password: e.target.value })}
-                      className="w-full border border-gray-300 rounded-lg px-10 py-2 focus:outline-none focus:ring-2 focus:ring-red-500"
+                      className="w-full text-black border border-gray-300 rounded-lg px-10 py-2 focus:outline-none focus:ring-2 focus:ring-red-500"
                     />
                   </div>
                 </div>
@@ -209,7 +209,7 @@ export default function Register() {
                       placeholder="Confirm"
                       value={formData.confirmPassword}
                       onChange={(e) => setFormData({ ...formData, confirmPassword: e.target.value })}
-                      className="w-full border border-gray-300 rounded-lg px-10 py-2 focus:outline-none focus:ring-2 focus:ring-red-500"
+                      className="w-full text-black border border-gray-300 rounded-lg px-10 py-2 focus:outline-none focus:ring-2 focus:ring-red-500"
                     />
                   </div>
                 </div>

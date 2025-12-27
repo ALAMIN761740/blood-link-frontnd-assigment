@@ -74,7 +74,7 @@ export default function RequestBlood() {
                 placeholder="Enter patient name"
                 value={formData.patientName}
                 onChange={(e) => setFormData({ ...formData, patientName: e.target.value })}
-                className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-red-500"
+                className="w-full text-black border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-red-500"
               />
             </div>
 
@@ -85,7 +85,7 @@ export default function RequestBlood() {
                 <select
                   value={formData.bloodGroup}
                   onChange={(e) => setFormData({ ...formData, bloodGroup: e.target.value })}
-                  className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-red-500"
+                  className="w-full text-black border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-red-500"
                 >
                   <option value="">Select</option>
                   {bloodGroups.map((group) => (
@@ -101,7 +101,7 @@ export default function RequestBlood() {
                   max="10"
                   value={formData.unitsNeeded}
                   onChange={(e) => setFormData({ ...formData, unitsNeeded: e.target.value })}
-                  className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-red-500"
+                  className="w-full text-black border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-red-500"
                 />
               </div>
             </div>
@@ -113,7 +113,7 @@ export default function RequestBlood() {
                 <select
                   value={formData.district}
                   onChange={(e) => setFormData({ ...formData, district: e.target.value })}
-                  className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-red-500"
+                  className="w-full text-black border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-red-500"
                 >
                   <option value="">Select</option>
                   {districts.map((d) => (
@@ -128,7 +128,7 @@ export default function RequestBlood() {
                   placeholder="Enter hospital name"
                   value={formData.hospital}
                   onChange={(e) => setFormData({ ...formData, hospital: e.target.value })}
-                  className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-red-500"
+                  className="w-full text-black border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-red-500"
                 />
               </div>
             </div>
@@ -142,7 +142,7 @@ export default function RequestBlood() {
                   placeholder="+880 1XXX-XXXXXX"
                   value={formData.contactPhone}
                   onChange={(e) => setFormData({ ...formData, contactPhone: e.target.value })}
-                  className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-red-500"
+                  className="w-full text-black border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-red-500"
                 />
               </div>
               <div>
@@ -150,7 +150,7 @@ export default function RequestBlood() {
                 <select
                   value={formData.urgency}
                   onChange={(e) => setFormData({ ...formData, urgency: e.target.value })}
-                  className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-red-500"
+                  className="w-full border text-black border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-red-500"
                 >
                   <option value="">Select</option>
                   {urgencyLevels.map((level) => (
@@ -167,7 +167,7 @@ export default function RequestBlood() {
                 placeholder="e.g., Surgery, Accident, Medical condition..."
                 value={formData.reason}
                 onChange={(e) => setFormData({ ...formData, reason: e.target.value })}
-                className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-red-500"
+                className="w-full border text-black border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-red-500"
                 rows={3}
               />
             </div>
