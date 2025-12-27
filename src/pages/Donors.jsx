@@ -107,7 +107,7 @@ const DonorFilters = ({
               placeholder="Search by name..."
               value={searchQuery}
               onChange={(e) => onSearchChange(e.target.value)}
-              className="w-full p-3 pl-10 rounded-lg border border-gray-300 focus:ring-2 focus:ring-red-400"
+              className="w-full text-black p-3 pl-10 rounded-lg border border-gray-300 focus:ring-2 focus:ring-red-400"
             />
           </div>
         </div>
@@ -120,7 +120,7 @@ const DonorFilters = ({
           <select
             value={bloodGroup}
             onChange={(e) => onBloodGroupChange(e.target.value)}
-            className="w-full p-3 rounded-lg border border-gray-300 bg-white focus:ring-2 focus:ring-orange-400"
+            className="w-full p-3 text-black rounded-lg border border-gray-300 bg-white focus:ring-2 focus:ring-orange-400"
           >
             <option value="all">All Groups</option>
             {bloodGroups.map((g) => (
@@ -137,7 +137,7 @@ const DonorFilters = ({
           <select
             value={district}
             onChange={(e) => onDistrictChange(e.target.value)}
-            className="w-full p-3 rounded-lg border border-gray-300 bg-white focus:ring-2 focus:ring-orange-400"
+            className="w-full p-3 text-black rounded-lg border border-gray-300 bg-white focus:ring-2 focus:ring-orange-400"
           >
             <option value="all">All Districts</option>
             {districts.map((d) => (

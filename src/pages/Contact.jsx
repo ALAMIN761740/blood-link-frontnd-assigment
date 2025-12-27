@@ -55,7 +55,7 @@ export default function Contact() {
               <label className="text-sm font-medium text-gray-700">Your Name *</label>
               <input
                 type="text"
-                className="w-full border border-gray-300 rounded-lg p-3 mt-1 focus:ring-2 focus:ring-red-500 outline-none"
+                className="w-full text-black border border-gray-300 rounded-lg p-3 mt-1 focus:ring-2 focus:ring-red-500 outline-none"
                 placeholder="Enter your name"
                 value={formData.name}
                 onChange={(e) => setFormData({ ...formData, name: e.target.value })}
@@ -66,7 +66,7 @@ export default function Contact() {
               <label className="text-sm font-medium text-gray-700">Email Address *</label>
               <input
                 type="email"
-                className="w-full border border-gray-300 rounded-lg p-3 mt-1 focus:ring-2 focus:ring-red-500 outline-none"
+                className="w-full text-black border border-gray-300 rounded-lg p-3 mt-1 focus:ring-2 focus:ring-red-500 outline-none"
                 placeholder="Enter your email"
                 value={formData.email}
                 onChange={(e) => setFormData({ ...formData, email: e.target.value })}
@@ -77,7 +77,7 @@ export default function Contact() {
               <label className="text-sm font-medium text-gray-700">Subject</label>
               <input
                 type="text"
-                className="w-full border border-gray-300 rounded-lg p-3 mt-1 focus:ring-2 focus:ring-red-500 outline-none"
+                className="w-full text-black border border-gray-300 rounded-lg p-3 mt-1 focus:ring-2 focus:ring-red-500 outline-none"
                 placeholder="What's this about?"
                 value={formData.subject}
                 onChange={(e) => setFormData({ ...formData, subject: e.target.value })}
@@ -88,7 +88,7 @@ export default function Contact() {
               <label className="text-sm font-medium text-gray-700">Message *</label>
               <textarea
                 rows="5"
-                className="w-full border border-gray-300 rounded-lg p-3 mt-1 focus:ring-2 focus:ring-red-500 outline-none"
+                className="w-full text-black border border-gray-300 rounded-lg p-3 mt-1 focus:ring-2 focus:ring-red-500 outline-none"
                 placeholder="Your message..."
                 value={formData.message}
                 onChange={(e) => setFormData({ ...formData, message: e.target.value })}
