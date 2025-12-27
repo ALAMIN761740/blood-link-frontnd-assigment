@@ -60,7 +60,7 @@ export default function Register() {
           }),
         });
 
-        await fetch("http://localhost:5359/api/doner", {
+        await fetch("https://blood-link-backend-assigment.onrender.com/api/doner", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
